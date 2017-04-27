@@ -44,7 +44,7 @@ function getAvailability()
 http.createServer(function (request, response){
 	globalResponse = response;
 
-	if(url.parse(request.url).pathname == "/police/availability")
+	if(url.parse(request.url).pathname == "/crimes-street-dates")
 	{
 		if(cachedResponse == null || (Date.now() - cachedResponseTime) > 86400000)
 		{
