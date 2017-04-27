@@ -16,7 +16,6 @@ function handleCallback(error, response, body) {
 	}
 
 	cachedResponse = JSON.stringify(jsonObject);
-	cachedResponseTimeStamp = new Date().
 	sendResponseData(cachedResponse);	
 }
 
