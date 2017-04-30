@@ -1,6 +1,6 @@
 # CrimeMapperServer
 
-This Node.js app is intended to reduce the network overhead of the Android, iOS and Scala apps. 
+This Node.js app is intended to reduce the network overhead of the Crime Mapper Android, iOS and Scala apps. 
 
 First off I'm stripping the stop-and-search information from the ```crimes-street-dates``` endpoint.
 
